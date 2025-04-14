@@ -1,0 +1,90 @@
+//import Image from "next/image";
+
+export default function Home() {
+  return (
+  
+  <div className=" flex flex-col bg-red-500  h=[200px] items-center justify-center">
+  { <></>/* <div>NANDAN PRAHSNT VERNEKAR</div>
+    <div><Header />
+     <h3><p>Nandan Prashant Vernekar</p></h3>
+     <p>Sahyadri College of Engineering and Management</p>
+     <p>Contact:938XXXXXXX</p> 
+a
+    </div>
+    <div>
+ <p>Education:BE Computer Science Engineering</p>
+ <p>Projects</p>
+   <Education /> 
+</div>
+  <div> <ol>
+    <li>Online auction System </li>
+    <li>AI Based Resume Analyzer Using ML</li>
+   </ol></div>
+    
+    </div>
+    
+  );
+}
+
+function Header()
+{ 
+  return (
+    <div>
+  <img  width={"100px"} src="https://s.yimg.com/fz/api/res/1.2/43_OsJ2h_nV1SjIxfBwmjQ--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD0zODQ7cT04MDt3PTUxMg--/https://s.yimg.com/am/60d/035603f575d63206e4fdb132a32ef557"/>
+ <p>Name: Nandan P V</p> 
+ <p> contact:967325648</p>
+ <p>email:nandan@gmail.com</p>
+ </div>
+  )
+ 
+}
+
+
+function Education()
+{
+  return 
+  {
+    <div>
+      <h2><p>Education</p></h2>
+      <p>BE Computer Science Engineering</p> 
+      <p>BGS CENTRAL SCHOOL</p>
+    </div>
+  }
+}
+
+function skills()
+{
+  return (
+    <div>
+    <h2><p>Skills</p></h2>
+    <p>Programming Languages: C, C++, Java, Python</p>
+    <p>Web Development: HTML, CSS, JavaScript, React</p>
+    <p>Database: MySQL, MongoDB</p>
+    </div>
+  )
+   
+  } */
+
+  function sahyadri()
+  {
+    return(
+      <div>
+      <div>
+        <img src="https://www.sahyadri.edu.in/images/logo.svg"/>
+      
+        <p>SAHYADRI COLLEGE OF ENGINEERING AND MANAGEMENT</p>
+        <p>Address: 123, ABC Road, Bangalore</p>
+        <p>Phone: 1234567890</p>
+        <p>email:info@sahyadri.edu.in</p>
+        </div>
+       <div><p>About Sahyadri
+Your Future Campus
+Nestled along the Mangalore-Bangalore National Highway 48, Sahyadri College of Engineering and Management (SCEM) stands as a haven of learning on the serene banks of the river Nethravathi. With lush natural surroundings and top-notch infrastructure, this institute, founded in 2007, is a beacon of quality and innovation in technical education.</p>
+      </div>
+      </div>
+    )
+  }
+
+
+}</div> )
+}
